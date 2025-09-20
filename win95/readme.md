@@ -1,0 +1,2 @@
+If a pop-up window appears stating "Program startup failed" during launch, it is highly likely that imported symbols are missing. uwvm2 internally utilizes the Winsock 2 API, but Windows 95 only includes the Winsock 1 API by default. Therefore, you need to install the Winsock Update Version 2 (https://www.aggsoft.com/download/w95ws2setup.exe). After installation is complete, you can continue using uwvm2.
+

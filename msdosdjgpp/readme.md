@@ -1,0 +1,2 @@
+
+msdosdjgpp encountered an error while generating random numbers because it did not utilize the system entropy pool. The noise.sys driver must be installed for proper operation. (https://github.com/robrwo/noise.sys)
